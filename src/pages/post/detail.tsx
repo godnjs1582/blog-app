@@ -1,9 +1,16 @@
 import React from 'react'
+import PostDetail from "../../components/PostDetail";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
-const PostDetail = () => {
+const PostDetailPage = () => {
   return (
-    <div>Detail</div>
-  )
-}
+    <>
+      <Header />
+      <PostDetail />
+      <Footer />
+    </>
+  );
+};
 
-export default PostDetail
+export default PostDetailPage;
