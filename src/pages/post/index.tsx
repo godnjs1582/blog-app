@@ -1,7 +1,6 @@
-import React from "react";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import PostLists from "../../components/PostLists";
+import Footer from "components/Footer";
+import Header from "components/Header";
+import PostLists from "components/PostLists";
 
 const PostPage = () => {
   return (

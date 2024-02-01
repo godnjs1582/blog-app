@@ -1,11 +1,13 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import PostLists from "../../components/PostLists";
+import Carousel from "components/Carousel";
+import Footer from "components/Footer";
+import Header from "components/Header";
+import PostLists from "components/PostLists";
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Carousel />
       <PostLists />
       <Footer />
     </>

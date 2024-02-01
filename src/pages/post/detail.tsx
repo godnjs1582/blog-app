@@ -1,7 +1,6 @@
-import React from 'react'
-import PostDetail from "../../components/PostDetail";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Footer from "components/Footer";
+import Header from "components/Header";
+import PostDetail from "components/PostDetail";
 
 const PostDetailPage = () => {
   return (
