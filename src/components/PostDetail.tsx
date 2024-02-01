@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PostDetail = () => {
   return (
@@ -15,7 +16,9 @@ const PostDetail = () => {
           </div>
           <div className="post__utils-box">
             <div className="post__delete">삭제</div>
-            <div className="post__edit">수정</div>
+            <div className="post__edit">
+              <Link to="/post/edit/1">수정</Link>
+            </div>
           </div>
           <div className="post__text">
             fj;sdf;sldkf;sldkf;slkf;sldkf;sldkf;skf;s

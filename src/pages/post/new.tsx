@@ -1,12 +1,12 @@
 import Footer from "components/Footer";
 import Header from "components/Header";
+import PostForm from "components/PostForm";
 
 const PostNew = () => {
   return (
     <>
       <Header />
-      <div>Post Form</div>
-      <Footer />
+      <PostForm />
     </>
   );
 };
